@@ -7,7 +7,7 @@ const Header = () => {
         <div className="flex flex-col mt-44">
           <div className="flex items-center gap-1">
             <img src="/discount.png" className="h-4" />
-            <h3 className=" text-1xl sm:text-3xl">
+            <h3 className=" text-1xl sm:text-1xl ">
               GET <span className="text-[#858585]">25%</span> OFF NOW
             </h3>
           </div>

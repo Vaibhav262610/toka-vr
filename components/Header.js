@@ -11,31 +11,31 @@ const Header = () => {
         <hr className=" mt-24  sm:w-8/12 border-gray-600 " />
       </div>
 
-      <nav className="relative flex justify-center ">
-        <div className="mt-20  flex px-10 sm:px-20  whitespace-nowrap space-x-10 sm:space-x-20  overflow-x-scroll scrollbar-hide md:w-6/12 sm:10/12 w-10/12 ">
-          <img src="/pic1.png" className="h-4" />
-          <img src="/pic2.png" className="h-4" />
-          <img src="/pic3.png" className="h-5" />
-          <img src="/pic4.png" className="h-4" />
-          <img src="/pic5.png" className="h-6" />
-          <img src="/pic1.png" className="h-4" />
-          <img src="/pic2.png" className="h-4" />
-          <img src="/pic3.png" className="h-5" />
-          <img src="/pic4.png" className="h-4" />
-          <img src="/pic2.png" className="h-4" />
-          <img src="/pic3.png" className="h-5" />
-          <img src="/pic4.png" className="h-4" />
-          <img src="/pic5.png" className="h-6" />
-          <img src="/pic1.png" className="h-4" />
-          <img src="/pic2.png" className="h-4" />
-          <img src="/pic3.png" className="h-5" />
-          <img src="/pic4.png" className="h-4" />
-          <img src="/pic5.png" className="h-6" />
+      <nav className="relative flex justify-center ml-24 ">
+        <div className="mt-20 flex px-10 sm:px-20  whitespace-nowrap space-x-10 sm:space-x-20  overflow-x-scroll scrollbar-hide  ">
+          <img src="/pic1.png" className="h-6" />
+          <img src="/pic2.png" className="h-6" />
+          <img src="/pic3.png" className="h-7" />
+          <img src="/pic4.png" className="h-6" />
+          <img src="/pic5.png" className="h-8" />
+          <img src="/pic1.png" className="h-6" />
+          <img src="/pic2.png" className="h-6" />
+          <img src="/pic3.png" className="h-7" />
+          <img src="/pic4.png" className="h-6" />
+          <img src="/pic2.png" className="h-6" />
+          <img src="/pic3.png" className="h-7" />
+          <img src="/pic4.png" className="h-6" />
+          <img src="/pic5.png" className="h-8" />
+          <img src="/pic1.png" className="h-6" />
+          <img src="/pic2.png" className="h-6" />
+          <img src="/pic3.png" className="h-7" />
+          <img src="/pic4.png" className="h-6" />
+          <img src="/pic5.png" className="h-8" />
         </div>
       </nav>
 
       <div>
-        <div className="flex flex-col justify-center items-center mt-44">
+        <div className="flex flex-col items-center mt-44">
           <h2 className=" text-[#28ac98]">BUY, STORE, SELL</h2>
           <h1 className="mt-4 text-4xl">Manage your transactions</h1>
           <h1 className="mt-2 text-4xl">in one place</h1>
@@ -51,7 +51,7 @@ const Header = () => {
 
       <div className="mt-32 gap-44 flex-col md:flex-row flex justify-center items-center">
         <div>
-          <h3 className="text-[#28ac98] ">EARN CRYPTO</h3>
+          <h3 className="text-[rgb(40,172,152)] ">EARN CRYPTO</h3>
           <div className="mt-4 flex items-center gap-5">
             <h1 className="text-4xl">Deposit crypto earn </h1>
             <img src="/sparkle.png" className="h-8 mt-1" />
@@ -136,25 +136,25 @@ const Header = () => {
       </div>
 
       <div className="flex justify-center mt-64">
-      <div className="flex justify-between px-32 py-16 w-8/12 rounded-2xl border bg-[#13171E]">
-        <div>
-          <h1 className="text-4xl">Let’s start your crypto</h1>
-          <div className="flex items-center gap-5">
-            <h1 className="text-4xl">
-              <span className="text-[#28ac98]">investment</span> now
-            </h1>
-            <img src="/sparkle.png " className="h-8" />
+        <div className="flex justify-between px-32 py-16 w-8/12 rounded-2xl border bg-[#13171E]">
+          <div>
+            <h1 className="text-4xl">Let’s start your crypto</h1>
+            <div className="flex items-center gap-5">
+              <h1 className="text-4xl">
+                <span className="text-[#28ac98]">investment</span> now
+              </h1>
+              <img src="/sparkle.png " className="h-8" />
+            </div>
+            <p className="mt-10 text-gray-400 tracking-wide">
+              Choose from 150+ cryptocurrencies
+            </p>
           </div>
-          <p className="mt-10 text-gray-400 tracking-wide">
-            Choose from 150+ cryptocurrencies
-          </p>
+          <div>
+            <button className="mt-12 w-fit font-bold py-2 rounded-lg text-xl px-8 bg-green-400">
+              Start Now
+            </button>
+          </div>
         </div>
-        <div>
-          <button className="mt-12 w-fit font-bold py-2 rounded-lg text-xl px-8 bg-green-400">
-            Start Now
-          </button>
-        </div>
-      </div>
       </div>
       <div className="flex justify-center items-center flex-col mt-32">
         <p>Cloned By</p>

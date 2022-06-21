@@ -3,7 +3,7 @@ import React from "react";
 const Header_main_rev = () => {
   return (
     <>
-      <div className=" ml-20 flex-col flex w-full sm:hidden md:flex-row items-center justify-between ">
+      <div className=" ml-12 flex-col flex w-full sm:hidden md:flex-row items-center justify-between ">
         <div className="relative">
           <img
             src="/bubble1.png"
@@ -40,25 +40,23 @@ const Header_main_rev = () => {
             Make your life
           </h1>
           <div className="flex gap-6 items-center">
-            <h1 className=" text-5xl sm:text-6xl !font-bold ">easier with</h1>
+            <h1 className=" text-5xl sm:text-6xl !font-bold ">easier with crypto</h1>
             <img src="/sparkle.png" className="h-12 mt-3 hidden sm:block" />
           </div>
-          <h1 className=" text-5xl sm:text-6xl !font-bold">crypto</h1>
-          <button className="mt-12 w-fit font-bold py-2 rounded-lg px-8 bg-green-400">
+          <button className="mt-12 w-fit text-2xl font-bold py-2 rounded-lg px-8 bg-green-400">
             Start Now
           </button>
-          <div className="mt-20 ">
-            <div className="flex gap-5 items-center">
+          <div className="mt-36 ">
+            <div className="flex flex-col gap-5 items-center">
               <div className="flex items-center gap-4">
-                <h1 className="text-3xl font-bold">2K+</h1>
-                <h1 className=" uppercase font-extrabold mt-2 text-xs text-[#858585]">
+                <h1 className="text-5xl">2K+</h1>
+                <h1 className=" uppercase  mt-2 text-xl text-[#858585]">
                   active members
                 </h1>
               </div>
-              <hr className="w-10  border-white transform rotate-90 " />
               <div className="flex items-center gap-4">
-                <h1 className="text-3xl font-bold">20K+</h1>
-                <h1 className=" uppercase font-extrabold mt-2 text-xs text-[#858585]">
+                <h1 className="text-5xl ">20K+</h1>
+                <h1 className=" uppercase mt-2 text-xl text-[#858585]">
                   wallet types
                 </h1>
               </div>

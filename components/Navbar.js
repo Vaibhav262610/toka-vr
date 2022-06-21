@@ -3,9 +3,9 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <div className="w-full p-5 flex justify-around items-center">
+      <div className="w-full p-5 flex  bg-black sm:bg-transparent justify-around items-center">
         <div>
-          <h1 className="text-2xl font-extrabold">Toka</h1>
+          <h1 className="text-2xlfont-extrabold">Toka</h1>
         </div>
         <div className="   md:flex hidden gap-10 items-center">
             <p>NFT</p>

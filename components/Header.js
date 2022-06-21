@@ -11,16 +11,14 @@ const Header = () => {
               GET <span className="text-[#858585]">25%</span> OFF NOW
             </h3>
           </div>
-          <h1 className="mt-2 text-5xl sm:text-6xl !font-extralight  ">
+          <h1 className="mt-2 text-5xl sm:text-6xl !font-medium  ">
             Make your life
           </h1>
           <div className="flex gap-6 items-center">
-            <h1 className=" text-5xl sm:text-6xl !font-extralight ">
-              easier with
-            </h1>
+            <h1 className=" text-5xl sm:text-6xl !font-medium ">easier with</h1>
             <img src="/sparkle.png" className="h-12 mt-3 hidden sm:block" />
           </div>
-          <h1 className=" text-5xl sm:text-6xl !font-extralight">crypto</h1>
+          <h1 className=" text-5xl sm:text-6xl !font-medium">crypto</h1>
           <button className="mt-12 w-fit font-bold py-2 rounded-lg px-8 bg-green-400">
             Start Now
           </button>
